@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <form action="/action_page.php">
+        姓名: &nbsp&nbsp<input type="text" name="email" required="required"><br><br>
+        密碼: &nbsp&nbsp<input type="text" name="password" required="required"><br><br>
+        EMail: <input type="email" name="email" required="required"><br><br>
+        <label for="birth">生日：</label><input id="meeting" type="date" required="required" value="年-月-日" /><br><br>
+        <input type="radio" name="gender" value="male" checked> 男
+        <input type="radio" name="gender" value="female"> 女
+        <input type="radio" name="gender" value="other"> 其他<br><br>
+        <input type="checkbox" name="專長" value="電腦系統">電腦系統
+        <input type="checkbox" name="專長" value="網路資安">網路資安
+        <input type="checkbox" name="專長" value="軟體工程">軟體工程<br><br>
+
+        <select>
+            <option value="1">大一</option>
+            <option value="2">大二</option>
+            <option value="3">大三</option>
+            <option value="4">大四</option>
+        </select><br><br>
+        <input type="submit" value="註冊">
+        <input type="reset" value="重設"><br><br>
+    </form>
+
+    <ul>
+        <li>
+            姓名, 密碼, EMail, 生日為必填欄位
+        </li>
+        <li>
+            Email格式不正確則無法註冊
+        </li>
+        <li>
+            年級選項包含大一, 大二, 大三, 大四
+        </li>
+        <li>
+            按下重設按鈕, 所有欄位會回復為預設值
+        </li>
+    </ul>
+
+</body>
+
+</html>
